@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@layer utilities {
+  .vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  @keyframes verticalMove {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-verticalMove {
+    animation: verticalMove 3s ease-in-out infinite;
+  }
+}
+
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1px rgb(6, 127, 184);
+    color: white;
+  }
+}
+
+.shine {
+  position: absolute;
+  top: -150%;
+  left: -150%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 60%
+  );
+  transform: rotate(25deg);
+  animation: none;
+}
+
+.group:hover .shine {
+  animation: shine-move 0.7s linear forwards;
+}
+
+@keyframes shine-move {
+  0% {
+    transform: translate(-100%, -100%) rotate(25deg);
+  }
+  100% {
+    transform: translate(100%, 100%) rotate(25deg);
+  }
+}
+
+
+/* shape */
+.custom-shape-divider-top,
+.custom-shape-divider-bottom {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top {
+  top: 0;
+}
+
+.custom-shape-divider-bottom {
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top svg,
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(182% + 1.3px);
+  height: 158px;
+}
