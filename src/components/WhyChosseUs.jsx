@@ -58,7 +58,7 @@ const WhyChosseUs = () => {
         </span>
       </div>
       <h1 className="md:text-5xl text-xl font-bold text-center px-5 py-5">Where expertise meets excellence</h1>
-      <div className="w-[100%] mx-auto mx- px-5 py-10 gap-10 grid md:grid-cols-3 grid-cols-1 justify-center items-center">
+      <div className="w-[90%] mx-auto mx- px-5 py-10 gap-10 grid md:grid-cols-3 grid-cols-1 justify-center items-center">
         {whyChooseCard.map((items, index) => (
           <div key={index} className="h-60 md:w-70 w-full group relative">
             <div className="border border-orange-500 h-60 md:w-70 w-full group-hover:border-blue-500">

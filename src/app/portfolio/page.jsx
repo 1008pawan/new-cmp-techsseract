@@ -135,11 +135,11 @@ const Portfolio = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:py-20 py-10 md:w-[95%] w-[90%]  mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:py-20 py-10 md:w-[95%] w-[90%]  mx-auto" >
         {bgImage.map((bg, index) => (
           <div
             key={index}
-            className="rounded-lg shadow-xl inset-shadow-sm/30 overflow-hidden flex flex-col justify-between"
+            className="rounded-lg shadow-xl inset-shadow-sm/30 overflow-hidden flex flex-col justify-start relative"
           >
             <div className="bg-cover bg-center md:h-75 h-55 w-full p-5 rounded-lg">
               <img
@@ -148,15 +148,15 @@ const Portfolio = () => {
                 className="bg-cover bg-center h-50 w-full md:h-75 rounded-lg hover:scale-110 transition-all"
               />
             </div>
-            <div className="rounded-lg flex justify-center items-center md:mt-10">
+            <div className="rounded-lg md:mt-10 z-10">
               <div className="rounded-lg flex flex-col justify-center items-center px-4 text-center">
-                <h1 className="text-lg sm:text-xl md:text-2xl text-zinc-700 font-semibold mb-3">
+                <h1 className="text-lg sm:text-xl md:text-2xl text-zinc-700 font-bold mb-3">
                   {bg.heading}
                 </h1>
-                <p className="text-sm text-zinc-500">{bg.para}</p>
+                <p className="text-sm text-zinc-500 text-justify pb-5 font-semibold">{bg.para}</p>
               </div>
             </div>
-            <div className="flex items-end">
+            <div className="flex items-end absolute bottom-0">
               <img
                 src="images/icons/service_card_bg_1.jpg"
                 alt="icon"
