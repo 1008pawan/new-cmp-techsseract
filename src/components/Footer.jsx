@@ -66,23 +66,27 @@ const Footer = () => {
 
   return (
     <footer className=" text-white">
-      <div className="bg-black grid grid-cols-1 md:grid-cols-6 gap-8 border-t border-white p-10">
+      <div className="bg-black grid grid-cols-1 md:grid-cols-6 gap-8 border-t border-white p-5">
         {/* Company Intro */}
         <div>
-          <div className="h-20">
-            <a href="https://techsseract.com/">
-              <img src="images/logo.png" alt="Logo" className="h-15" />
+          <div className="h-14">
+            <a href="https://techsseract.com/" className="flex gap-2">
+              <img src="images/logo.png" alt="Logo" className="h-9" />
+              <img src="images/footer/singapore-logo.png" alt="Logo" className="h-11" />
             </a>
           </div>
-          <p className="text-xs font-semibold mb-4">
-            Techsseract is a digital solutions agency they help businesses build
-            powerful online presences by offering services like website design,
-            eCommerce portals, branding, copywriting, and technical consultancy.
-          </p>
+          <p className="text-xs font-semibold mb-2">CMP TECHSSERACT LLP</p>
+          <p className="text-xs font-semibold mb-2">CMP SOLUTIONS (SINGAPORE) PTE. LTD</p>
+          <p className="text-xs font-semibold mb-2 text-orange-500"><span className="text-blue-500">CREATE.</span> A NEW DIMENSION FOR YOUR BUSINESS.</p>
+          <p className="text-xs font-semibold mb-2"><a href="#" className="hover:text-blue-500">www.techsseract.com</a></p>
+          <div className="flex items-center gap-3">
+            <img src="images/footer/india.png" alt="India image" className="w-8"/>
+            <img src="images/footer/singapore.png" alt="" className="w-8"/>
+          </div>
         </div>
 
         {/* Our Services */}
-        <div>
+        {/* <div>
           <h3 className="text-xl font-bold mb-3">Our Services</h3>
           <ul className="space-y-2 text-md font-semibold">
             <li>
@@ -114,7 +118,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Social Media */}
         <div>
@@ -287,6 +291,11 @@ const Footer = () => {
               </div>
             </div>
           )}
+        </div>
+
+        {/* QR */}
+        <div>
+          <img src="images/footer/techsseract-QR.png" alt="" />
         </div>
       </div>
 
