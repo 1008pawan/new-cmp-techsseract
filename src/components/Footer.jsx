@@ -78,7 +78,7 @@ const Footer = () => {
           <p className="text-xs font-semibold mb-2">CMP TECHSSERACT LLP</p>
           <p className="text-xs font-semibold mb-2">CMP SOLUTIONS (SINGAPORE) PTE. LTD</p>
           <p className="text-xs font-semibold mb-2 text-orange-500"><span className="text-blue-500">CREATE.</span> A NEW DIMENSION FOR YOUR BUSINESS.</p>
-          <p className="text-xs font-semibold mb-2"><a href="#" className="hover:text-blue-500">www.techsseract.com</a></p>
+          <p className="text-xs font-semibold mb-2"><a href="https://techsseract.com/" className="hover:text-blue-500">www.techsseract.com</a></p>
           <div className="flex items-center gap-3">
             <img src="images/footer/india.png" alt="India image" className="w-8"/>
             <img src="images/footer/singapore.png" alt="" className="w-8"/>
