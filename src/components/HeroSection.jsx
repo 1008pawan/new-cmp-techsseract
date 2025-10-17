@@ -18,15 +18,15 @@ const HeroSection = () => {
       id: 0,
       bgImage: "/images/bgImageOne.jpg",
       images: ["/images/threeSlider1.jpg", "/images/threeSlider2.jpg"],
-      heading: `Web Application, SEO & Designing For Your Business`,
-      text: `At CMP Techsseract LLP, we specialize in delivering comprehensive digital solutions that elevate your business. With a dedicated team experienced across various platforms, we provide innovative and cost-effective solutions tailored to meet your business needs. Contact us now.`,
+      heading: `Technology Solutions Provider with Expertise in Web, Mobile, and UX Design`,
+      text: `CMP Techsseract LLP is a technology-driven company based in Uttar Pradesh, India, specializing in web development, mobile applications, e-commerce platforms, and UVUX design. Established in 2016, the company is known for delivering scalable and user-centric digital solutions for both government and enterprise clients.`,
     },
     {
       id: 1,
       bgImage: "/images/bgImageTwo.jpg",
       images: ["/images/secondSlider1.jpg", "/images/secondSlider2.jpg"],
-      heading: "Creative Digital Solutions For Your Brand",
-      text: `We provide creative and innovative solutions that help your brand stand out. Our team ensures that every project is tailored to your business goals.`,
+      heading: "Innovative Infrastructure Management Solutions",
+      text: `At CMP Techsseract, we focus on creating impactful technology that addresses real-world challenges. Our key projects include the UTTAM-FDR Portal (Unified Technical Tracking and Augmentation Management System), developed for the Uttar Pradesh Rural Roads Development Agency (UPRRDA) to monitor and manage Full Depth Reclamation (FDR) road restoration works through real-time tracking, geo-tagging, and automated reporting.`,
     },
     {
       id: 2,
@@ -35,8 +35,8 @@ const HeroSection = () => {
         "/images/firstSlider1.jpg",
         "/images/young-person-intership.jpg",
       ],
-      heading: "Sustainable & Eco-Friendly Solutions",
-      text: `We focus on creating sustainable and eco-friendly solutions that not only drive growth for your business but also protect and preserve the environment.`,
+      heading: "Digital Solutions for Social Welfare and Public Services",
+      text: `We have also developed the Hot Cooked Meals (HCM) module under the ICDS scheme to track daily nutrition delivery at Anganwadi Centres; the AWW Recruitment Portal, an online platform for applying to Anganwadi Worker positions; and the UPNOMS Portal (Uttar Pradesh Notary Management System), a digital platform that streamlines notary application and approval processes. With a commitment to innovation, transparency, and service excellence, we continue to deliver secure, end-to-end technology solutions-driving progress across diverse sectors.`,
     },
   ];
 
@@ -82,10 +82,10 @@ const HeroSection = () => {
             <h2 className="text-orange-500 text-sm md:text-lg font-semibold uppercase">
               About Our Company
             </h2>
-            <h1 className="text-blue-500 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
+            <h1 className="text-blue-500 text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">
               {activeSlide.heading}
             </h1>
-            <p className="text-white text-sm sm:text-base md:text-lg">
+            <p className="text-white text-xs sm:text-sm md:text-md">
               {activeSlide.text}
             </p>
             <div className="pt-2">

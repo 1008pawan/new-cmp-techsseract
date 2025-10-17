@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Button from "./Button";
+import { IconCertificate, IconWorld } from "@tabler/icons-react";
 
 const SecondHeroSection = () => {
   const [count, setCount] = useState(0);
@@ -39,10 +40,13 @@ const SecondHeroSection = () => {
   ];
 
   return (
-    <div id="AboutUs" className="py-16 px-6 grid lg:grid-cols-5 grid-cols-1 gap-20 scroll-mt-24">
+    <div
+      id="AboutUs"
+      className="py-16 px-6 grid lg:grid-cols-5 grid-cols-1 gap-20 scroll-mt-24"
+    >
       <div className="flex flex-col lg:flex-row gap-6 lg:col-span-3">
         <div className="hidden lg:block vertical-text animate-verticalMove text-white text-outline text-5xl lg:text-7xl rotate-180 text-center font-bold">
-          Since 2017
+          Since 2016
         </div>
 
         <div className="relative flex-1">
@@ -105,7 +109,7 @@ const SecondHeroSection = () => {
             </svg>
           </span>
           <h3 className="text-orange-600 font-semibold text-sm sm:text-base uppercase">
-            ABOUT OUR COMPANY
+            COMPANY OVERVIEW
           </h3>
           <span className="text-orange-600">
             <svg
@@ -134,20 +138,25 @@ const SecondHeroSection = () => {
           Get to know more about our story
         </h1>
 
-        <p className="text-zinc-500 text-sm sm:text-base">
-          Welcome to
-          <span className="text-blue-500 font-bold">CMP Techsseract LLP</span>,
-          where innovation meets excellence. Established with a vision to
-          revolutionize the tech industry, CMP Techsseract is a dynamic and
-          forward-thinking technology solutions provider.
+        <p className="text-zinc-500 text-sm sm:text-sm">
+          <span className="text-blue-500 font-bold">CMP Techsseract LLP </span>
+          is more than just a technology company we are a team of passionate
+          innovators, problem-solvers, and digital architects dedicated to
+          crafting meaningful technology experiences. Since our inception in
+          2016, we have upheld a core philosophy: blending creativity with
+          functionality to deliver real-world impact. Our culture is built on
+          collaboration, transparency, and continuous learning, empowering us to
+          stay ahead in an ever-evolving digital landscape.
         </p>
 
-        <p className="text-zinc-500 text-sm sm:text-base">
-          <span className="text-blue-500 font-bold">CMP Techsseract LLP</span>
-          is a collective of passionate technologists, skilled engineers, and
-          creative problem solvers. Our mission is to empower clients through
-          innovative technology solutions that enhance efficiency, boost
-          productivity, and drive success.
+        <p className="text-zinc-500 text-sm sm:text-sm">
+          We focus on building scalable, secure, and user-centric digital
+          platforms tailored to modern business needs. Backed by a growing team
+          of skilled professionals and leadership grounded in experience and vision,
+          <span className="text-blue-500 font-bold"> CMP Techsseract LLP </span>
+          consistently delivers impactful solutions-ranging from large-scale
+          government digital infrastructure projects to dynamic commercial
+          technology ecosystems.
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4">
@@ -170,8 +179,14 @@ const SecondHeroSection = () => {
           ))}
         </div>
 
-        <div className="pt-3">
-          <a href="#ContactUs"><Button btnText={"Contact Us"} /></a>
+        <div className="pt-3 text-zinc-600">
+          <h1 className="text-xl font-bold pb-2 flex items-center gap-2"> < IconCertificate />CERTIFICATIONS</h1>
+          <div className="grid grid-cols-2 text-xs font-semibold">
+            <p className="flex items-center gap-1"> < IconWorld size={20}/> ISO 9001:2015</p>
+            <p className="flex items-center gap-1"> < IconWorld size={20}/> ISO 10667-2:2020</p>
+            <p className="pt-2 flex items-center gap-1"> < IconWorld size={20}/> ISO/IEC 27001:2022</p>
+            <p className="pt-2 flex items-center gap-1"> < IconWorld size={20}/> CMMI MATURITY LEVEL 3</p>
+          </div>
         </div>
       </div>
     </div>

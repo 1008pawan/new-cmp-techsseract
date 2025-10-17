@@ -4,34 +4,34 @@ import Button from "./Button";
 
 const bgImage = [
   {
-    img: "/images/portfolio/mac-uprrda.jpg",
-    heading: "UPRRDA Website",
-    para: "This website was developed using Wordpress for UPRRDA (Uttar Pradesh Rural Road Development Agency).",
-  },
-  {
-    img: "/images/portfolio/mac-upfdr.jpg",
+    img: "/images/portfolios/uttam-fdr.png",
     heading: "UTTAM-FDR",
-    para: "This Project is developed as Website aswell as Mobile App aswell. it provides the means to manage and track the Quality Tests at the road sites and provide the functionality to the contractor of the site to raise their bill, which can be tracked and approved by other stakeholders.",
+    para: `The UTTAM-FDR Portal offers a comprehensive solution for managing every aspect of Full Depth Reclamation (FDR) road projects...`,
   },
   {
-    img: "/images/portfolio/mac-upnoms.jpg",
-    heading: "UPNOMS Project",
-    para: "The notary management system is to handle the problems related to time for finding documents, records of customer, and matching documents or other related photos.",
+    img: "/images/portfolios/info-suite.png",
+    heading: "INFO SUITE",
+    para: `The Hoarding Management System (HMS) provides a geo-tagged inventory of advertising sites with photo verification, enabling online permit applications, billing approvals ...`,
   },
   {
-    img: "/images/portfolio/mac-dms.png",
-    heading: "UPDESCO DMS",
-    para: "This portal was developed to help Updesco manage and organize documents efficiently.",
+    img: "/images/portfolios/rahat.png",
+    heading: "RAHAT",
+    para: `RAHAT is an integrated Relief and Disaster Management Suite designed to streamline compensation, relief logistics, and flood risk response through transparent, data-driven coordination across departments...`,
   },
   {
     img: "/images/portfolio/mac-hcm.jpg",
-    heading: "Hot Cooked Meal Portal",
+    heading: "UPHCM UTTAR PRADESH Hot Cooked Meal Portal",
     para: "This portal was developed for ICDS Hot Cooked Meal scheme and helps in managing different aspects related to food being served to younger children.",
   },
   {
     img: "/images/portfolio/mac-kumbh.png",
     heading: "Mahakumbh 2025 Land & Suvidha Allotment",
     para: "The Mahakumbh 2025 Land & Suvidha Allotment portal provides a comprehensive platform for managing the allocation of land and suvidha required for the event",
+  },
+  {
+    img: "images/portfolios/mac-aww.jpg",
+    heading: "Aww Recruitment Portal 2024",
+    para: "This portal was developed to help for the recruitment of positions under Anganwadi Bharti Scheme 2024.",
   },
 ];
 
