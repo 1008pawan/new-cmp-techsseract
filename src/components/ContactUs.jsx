@@ -36,7 +36,7 @@ const ContactUs = () => {
 
   return (
     <div id="ContactUs" className="relative mt-50">
-      <div className="h-70 w-[80%] mx-auto bg-zinc-500 absolute -top-40 md:left-33 left-8 shadow-sm shadow-white">
+      <div className="h-70 w-[80%] mx-auto bg-zinc-500 absolute -top-40 lg:left-33 md:left-20 left-8 shadow-sm shadow-white">
         <img
           src={testimonials[activeIndex].image}
           alt={testimonials[activeIndex].name}
@@ -47,7 +47,7 @@ const ContactUs = () => {
         className="h-[100vh] w-full"
         style={{ backgroundImage: `url("images/ContactUs/contactUs.png")` }}
       >
-        <div className="flex justify-center items-center gap-2 pt-33">
+        <div className="flex justify-center items-center gap-2 lg:pt-33 md:pt-60 pt-33">
           <span className="text-orange-600">
             <svg
               width="20"
@@ -80,7 +80,7 @@ const ContactUs = () => {
             </svg>
           </span>
         </div>
-        <h1 className="md:text-5xl text-xl font-bold text-center py-5 text-white">
+        <h1 className="md:text-5xl text-xl font-bold text-center lg:w-full md:w-[80%] w-full mx-auto lg:py-5 md:py-15 py-5 text-white">
           Don’t wait-reach out and let’s go!  
         </h1>
         <div className="text-white">
@@ -115,7 +115,7 @@ const ContactUs = () => {
                 <h4 className="text-xl font-semibold">
                   {testimonials[activeIndex].name}
                 </h4>
-                <p className="text-sm text-blue-500">
+                <p className="text-sm text-blue-500 lg:pt-0 md:pt-5 pt-0">
                   {testimonials[activeIndex].title}
                 </p>
               </div>

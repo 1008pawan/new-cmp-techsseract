@@ -31,7 +31,7 @@ const Navebar = () => {
           </div>
           
           <div className="hidden lg:flex items-center gap-10">
-            <ul className="flex items-center gap-10 border border-b-3 border-blue-500 py-3 px-6 rounded-full">
+            <ul className="flex items-center lg:gap-10 md:gap-5 gap-10 border border-b-3 border-blue-500 py-3 px-6 rounded-full">
               {navContent.map((item, index) => (
                 <li key={index}>
                   <a

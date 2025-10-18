@@ -50,7 +50,7 @@ const SecondHeroSection = () => {
         </div>
 
         <div className="relative flex-1">
-          <div className="absolute z-10 h-32 w-24 sm:h-40 sm:w-32 bg-[url('/images/second/secondBgImage.jpg')] bg-cover bg-center lg:left-81 left-200px top-0 border-b-8 md:border-l-8 border-r-8 text-center flex flex-col justify-center text-white">
+          <div className="absolute z-10 h-32 w-24 md:h-60 md:w-50 lg:h-40 lg:w-32 bg-[url('/images/second/secondBgImage.jpg')] bg-cover bg-center lg:left-81 left-200px top-0 border-b-8 md:border-l-8 border-r-8 text-center flex flex-col justify-center text-white">
             <div className="flex justify-center">
               <h1 className="font-bold text-3xl sm:text-5xl">{count}</h1>
               <span className="text-2xl">+</span>
@@ -71,11 +71,11 @@ const SecondHeroSection = () => {
             </div>
           </div>
 
-          <div className="absolute -bottom-20 lg:-right-35 -right-6 w-45 sm:w-1/2 group-hover:scale-105 transition">
+          <div className="absolute -bottom-20 lg:-right-35 md:-right-0 -right-6 lg:w-55 md:w-65 w-35 sm:w-1/2">
             <img
               src="/images/second/about_2_2.png"
               alt="About Two"
-              className="lg:w-full lg:h-auto h-70 w-45 border-4 border-white"
+              className="border-4 border-white"
             />
           </div>
         </div>

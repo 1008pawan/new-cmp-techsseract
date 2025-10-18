@@ -148,8 +148,8 @@ const Gallery = () => {
       </div>
       <h1 className="md:text-5xl text-xl font-bold text-center py-5">See the moments that define us</h1>
       <div>
-        <div className=" flex items-center justify-center p-4">
-          <div className="md:w-7/8 w-full mx-auto grid md:grid-cols-3 grid-cols-1 gap-8 bg-white shadow-lg hover:shadow-xl rounded-lg p-6 py-12 border border-gray-300">
+        <div className=" flex items-center justify-center p-">
+          <div className="lg:w-7/8 md:w-[95%] w-full mx-auto grid md:grid-cols-3 grid-cols-1 gap-8 bg-white shadow-lg hover:shadow-xl rounded-lg p-6 py-12 border border-gray-300">
             {Gallerys.map((data, index) => (
               <div
                 key={index}

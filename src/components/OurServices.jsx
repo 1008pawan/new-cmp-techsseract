@@ -200,7 +200,7 @@ const OurServices = () => {
         {cardItems.map((card, index) => (
           <div
             key={index}
-            className="p-5 border border-zinc-300 md:w-90 w-full h-70 overflow-hidden group hover:shadow-xl hover:inset-shadow-sm/20"
+            className="p-5 border border-zinc-300 w-full h-70 overflow-hidden group hover:shadow-xl hover:inset-shadow-sm/20"
           >
             <div className="flex justify-center items-center gap-8 border-b border-zinc-300">
               <div className="py-5 group-hover:rotate-y-180 group-hover:scale-110">

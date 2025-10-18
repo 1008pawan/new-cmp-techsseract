@@ -65,7 +65,7 @@ const Footer = () => {
 
   return (
     <footer className=" text-white">
-      <div className="bg-black grid grid-cols-1 md:grid-cols-6 gap-8 border-t border-white p-5">
+      <div className="bg-black grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8 border-t border-white p-5">
         {/* Company Intro */}
         <div>
           <div className="h-14">
