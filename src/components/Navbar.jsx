@@ -25,8 +25,9 @@ const Navebar = () => {
         {/* disktop view */}
         <div className="flex justify-between items-center h-16 lg:h-20">
           <div>
-            <a href="/">
+            <a href="/" className="flex justify-center items-center">
               <img src="/images/logo.png" alt="Logo" className="h-12" />
+              <img src="/images/footer/singapore-logo.png" alt="Singapore Logo" className="h-14"/>
             </a>
           </div>
           
