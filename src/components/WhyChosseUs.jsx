@@ -60,13 +60,13 @@ const WhyChosseUs = () => {
       <h1 className="md:text-5xl text-xl font-bold text-center px-5 py-5">Where expertise meets excellence</h1>
       <div className="w-[90%] mx-auto mx- px-5 py-10 gap-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center">
         {whyChooseCard.map((items, index) => (
-          <div key={index} className="h-60 md:w-70 w-full group relative">
-            <div className="border border-orange-500 h-60 md:w-70 w-full group-hover:border-blue-500">
+          <div key={index} className="h-60 lg:w-70 w-full group relative">
+            <div className="border border-orange-500 h-60 lg:w-70 w-full group-hover:border-blue-500">
               <div className="h-10 w-10 bg-orange-500 relative left-8 -top-10 z-10 group-hover:bg-blue-500 text-white flex justify-center items-center font-bold text-2xl">
                 {items.num}
               </div>
               <div className="h-10 w-8 bg-orange-500 absolute left-12 -top-9 -rotate-13 group-hover:bg-blue-500 text-white flex justify-center items-center font-bold text-2xl"></div>
-              <div className="bg-zinc-200 h-60 md:w-70 w-full relative left-6 bottom-15 p-3 flex flex-col justify-center items-center">
+              <div className="bg-zinc-200 h-60 lg:w-70 w-full relative left-6 bottom-15 p-3 flex flex-col justify-center items-center">
                 <div className="pb-5">
                   <img
                     src={items.svg}
