@@ -8,7 +8,7 @@ const Navebar = () => {
 
   const navContent = [
     { lable: "Home", link: "/" },
-    { lable: "About Us", link: "#AboutUs"},
+    { lable: "About Us", link: "#AboutUs" },
     { lable: "Our Services", link: "#OurServices" },
     { lable: "Our Works", link: "#OurWork" },
     { lable: "Why Choose Us", link: "#WhyChooseUs" },
@@ -117,10 +117,7 @@ const Navebar = () => {
             <ul className="flex flex-col items-center gap-4 py-4 font-medium">
               {navContent.map((item, index) =>
                 item.lable === "About Us" ? (
-                  <li
-                    key={index}
-                    className="w-full text-center text-black group relative"
-                  >
+                  <li key={index} className="w-full text-center text-black">
                     <a
                       href={item.link}
                       onClick={handleLinkClick}
@@ -128,14 +125,8 @@ const Navebar = () => {
                     >
                       {item.lable}
                     </a>
-
-                    {/* Sub-heading: Hidden until hover */}
-                    <a
-                      href="/singaporeOverview"
-                      className="absolute left-1/2 -translate-x-1/2 top-full mt-1 text-sm opacity-0  group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap text-blue-500"
-                    >
-                      Singapore Branch
-                    </a>
+                    {/* Mobile Sub-heading */}
+                    <a href="/singaporeOverview" className="text-xs text-blue-500 mt-1">Singapore Branch</a>
                   </li>
                 ) : (
                   <li
