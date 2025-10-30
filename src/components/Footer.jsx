@@ -310,7 +310,7 @@ const Footer = () => {
         </div>
 
         {/* QR */}
-        <div className="size-50 flex justify-center items-center">
+        <div className="h-50 w-full flex justify-center items-center">
           <img src="images/footer/techsseract-QR.png" alt="Techsseract QR" className="h-40"/>
         </div>
       </div>

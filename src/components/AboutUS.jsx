@@ -51,7 +51,7 @@ const SecondHeroSection = () => {
   return (
     <div
       id="AboutUs"
-      className="pt-10 relative min-h-[100vh] sm:min-h-[110vh] md:min-h-[120vh] lg:min-h-[130vh] overflow-hidden"
+      className="pt-10 relative min-h-[140vh] sm:min-h-[110vh] md:min-h-[120vh] lg:min-h-[130vh] overflow-hidden"
     >
       {/* new design */}
       {!showSingaporeBranch && !showIndianBranch && (
@@ -135,9 +135,9 @@ const SecondHeroSection = () => {
             </div>
 
             {/* main section */}
-            <div className="lg:h-170 md:h-140 h-130">
+            <div className="lg:h-170 md:h-140 h-100">
               <div className="relative flex-1 z-20">
-                <div className="absolute z-20 h-32 w-24 md:h-40 md:w-32 lg:h-40 lg:w-32 bg-[url('/images/second/secondBgImage.jpg')] bg-cover bg-center lg:left-0 md:left-40 left-200px top-0 border-b-8 md:border-l-8 border-r-8 text-center flex flex-col justify-center text-white">
+                <div className="absolute z-20 h-32 w-24 md:h-40 md:w-32 lg:h-40 lg:w-32 bg-[url('/images/second/secondBgImage.jpg')] bg-cover bg-center lg:left-0 md:left-40 left-2 top-0 border-b-8 md:border-l-8 border-r-8 text-center flex flex-col justify-center text-white">
                   <div className="flex justify-center">
                     <h1 className="font-bold text-3xl sm:text-5xl">{count}</h1>
                     <span className="text-2xl">+</span>
@@ -147,18 +147,18 @@ const SecondHeroSection = () => {
                   </p>
                 </div>
 
-                <div className="relative group overflow-hidden shadow-lg lg:w-120 w-100 mx-auto lg:h-150 h-130">
+                <div className="relative group overflow-hidden shadow-lg lg:w-120 w-80 mx-auto lg:h-150 h-100">
                   <img
                     src="/images/second/about_2_1.png"
                     alt="About one"
-                    className="transition-transform duration-500 group-hover:scale-105 lg:w-120 md:w-110 w-100 lg:h-150 md:h-140 h-130"
+                    className="transition-transform duration-500 group-hover:scale-105 lg:w-120 md:w-110 w-80 lg:h-150 md:h-140 h-100"
                   />
                   <div className="absolute inset-0 pointer-events-none overflow-hidden">
                     <div className="shine"></div>
                   </div>
                 </div>
 
-                <div className="absolute md:-bottom-20 -bottom-10 lg:-right-35 md:right-20 -right-10 lg:w-55 md:w-45 w-35 sm:w-1/2 ">
+                <div className="absolute md:-bottom-20 -bottom-10 lg:-right-35 md:right-20 -right-2 lg:w-55 md:w-45 w-35 sm:w-1/2 ">
                   <img
                     src="/images/second/about_2_2.png"
                     alt="About Two"
@@ -219,7 +219,7 @@ const SecondHeroSection = () => {
                   : "-translate-x-full opacity-0 pointer-events-none"
               }`}
             >
-              <div className="py-10 px-6 grid lg:grid-cols-5 grid-cols-1 lg:gap-20 gap-4">
+              <div className="sm:py-10 py-5 px-6 grid lg:grid-cols-5 grid-cols-1 lg:gap-20 gap-4">
                 {/* company overview */}
 
                 <div className="lg:col-span-2 space-y-4">
@@ -294,7 +294,7 @@ const SecondHeroSection = () => {
                     services through scalable technology solutions.
                   </p>
 
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:pt-4 pt-0">
                     {sixCards.map((item, i) => (
                       <div
                         key={i}

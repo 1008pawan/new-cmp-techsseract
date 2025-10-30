@@ -80,7 +80,7 @@ export default function CompanyOverview({ data = {} }) {
           <a href="/" className="text-red-500 font-bold text-xl hover:text-blue-500 hover:underline">Home</a>
         </button>
       </nav>
-      <section className="w-[95%] mx-auto my-8 p-6 mt-25 text-black rounded-2xl shadow-lg inset-shadow-xs">
+      <section className="w-[95%] mx-auto my-8 sm:p-6 p-0 mt-25 text-black rounded-2xl shadow-lg inset-shadow-xs">
         <header className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
             <h1 className="text-2xl md:text-3xl font-semibold text-red-500">
@@ -125,7 +125,7 @@ export default function CompanyOverview({ data = {} }) {
             </div>
           </div>
 
-          <aside className="space-y-6 lg:border-l lg:border-blue-300 pl-3">
+          <aside className="space-y-6 lg:border-l lg:border-blue-300 sm:pl-3 pl-0">
             <div className="p-4 bg-red-500 rounded-lg shadow-md">
               <h3 className="font-semibold text-white">
                 Singapore & ASEAN Focus
