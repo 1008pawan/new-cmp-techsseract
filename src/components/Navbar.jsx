@@ -126,7 +126,7 @@ const Navebar = () => {
                       {item.lable}
                     </a>
                     {/* Mobile Sub-heading */}
-                    <a href="/singaporeOverview" className="text-xs text-blue-500 mt-1">Singapore Branch</a>
+                    <a href="/singaporeOverview" className="text-xs mt-1">Singapore Branch</a>
                   </li>
                 ) : (
                   <li
