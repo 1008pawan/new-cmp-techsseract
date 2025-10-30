@@ -365,7 +365,7 @@ const SecondHeroSection = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col lg:flex-row gap-6 lg:col-span-3">
+                <div className="md:flex hidden flex-col lg:flex-row gap-6 lg:col-span-3">
                   <div className="z-20 relative flex-1">
                     <div className="absolute z-10 h-32 w-24 sm:h-40 sm:w-32 bg-[url('/images/second/secondBgImage.jpg')] bg-cover bg-center lg:left-0 left-200px top-0 border-b-8 md:border-l-8 border-r-8 text-center flex flex-col justify-center text-white">
                       <div className="flex justify-center">
