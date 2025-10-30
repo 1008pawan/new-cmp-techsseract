@@ -51,7 +51,7 @@ const SecondHeroSection = () => {
   return (
     <div
       id="AboutUs"
-      className="pt-10 relative min-h-[140vh] sm:min-h-[110vh] md:min-h-[120vh] lg:min-h-[130vh] overflow-hidden"
+      className="pt-10 relative min-h-[100vh] sm:min-h-[110vh] md:min-h-[120vh] lg:min-h-[130vh] overflow-hidden"
     >
       {/* new design */}
       {!showSingaporeBranch && !showIndianBranch && (
