@@ -139,7 +139,7 @@ export default function CompanyOverview({ data = {} }) {
             </div>
 
             <div className="p-4 rounded-lg bg-red-500 shadow-xl inset-shadow-md inset-shadow-white">
-              <h4 className="font-semibold text-slate-800 dark:text-white">
+              <h4 className="font-semibold text-white">
                 Our Strengths
               </h4>
               <hr className="border-white" />
