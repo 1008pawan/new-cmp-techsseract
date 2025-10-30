@@ -80,7 +80,7 @@ export default function CompanyOverview({ data = {} }) {
           <a href="/" className="text-red-500 font-bold text-xl hover:text-blue-500 hover:underline">Home</a>
         </button>
       </nav>
-      <section className="w-[95%] mx-auto my-8 sm:p-6 p-0 mt-25 text-black rounded-2xl shadow-lg inset-shadow-xs">
+      <section className="w-[95%] mx-auto my-8 sm:p-6 p-3 mt-25 text-black rounded-2xl shadow-lg inset-shadow-xs">
         <header className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
             <h1 className="text-2xl md:text-3xl font-semibold text-red-500">
