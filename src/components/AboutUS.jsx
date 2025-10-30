@@ -107,7 +107,7 @@ const SecondHeroSection = () => {
           <h1 className="text-center mt-5 mb-10 md:text-5xl text-3xl font-bold">
             Discover the Story Behind Our Success
           </h1>
-          <div className="lg:flex flex-1 justify-between items-start w-[90%] mx-auto h-[100%] ">
+          <div className="lg:flex flex-1 justify-between items-start w-[98%] mx-auto h-[100%] ">
             {/* left side button */}
             <div className="md:mb-0 mb-5">
               <div className="flex justify-center items-center gap-3">
